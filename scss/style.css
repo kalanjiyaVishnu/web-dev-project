@@ -1,0 +1,166 @@
+.nav-parent {
+  color: #e4e4e4;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 5rem;
+  background-color: #141414;
+  height: 100vh;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.active {
+  width: 12rem;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container li:last-child {
+  margin-top: auto;
+}
+
+.nav-item-container {
+  width: 100%;
+}
+
+.nav-item {
+  padding: 0 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-filter: grayscale(100%) opacity(0.2);
+          filter: grayscale(100%) opacity(0.2);
+  height: 5rem;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.nav-item svg {
+  width: 2.4rem;
+  margin-left: 0.5rem;
+}
+
+.nav-item:hover {
+  background: #252525;
+  -webkit-filter: grayscale(0%) opacity(1);
+          filter: grayscale(0%) opacity(1);
+}
+
+.nav-text {
+  margin-left: 1.6rem;
+}
+
+.nav-text svg {
+  max-width: 3rem;
+  width: 100%;
+}
+
+.fa-primary,
+.fa-secondary {
+  -webkit-transition: 600ms;
+  transition: 600ms;
+}
+
+.top-links .ham {
+  color: #e4e4e4;
+  outline: none;
+  border: none;
+  /* color: $dark; */
+  background-color: transparent;
+  width: 1.7rem;
+  /* color: $dark; */
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.top-links .ham .fa-caret-up {
+  color: #e4e4e4;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+  -webkit-filter: opacity(0.7);
+          filter: opacity(0.7);
+}
+
+.top-links .btn-active {
+  display: none;
+}
+
+.top-links .btn-active .fa-caret-up {
+  color: #999;
+  -webkit-filter: grayscale(0%) opacity(1);
+          filter: grayscale(0%) opacity(1);
+}
+
+.top-links .ham:hover .fa-caret-up {
+  -webkit-filter: grayscale(0%) opacity(1);
+          filter: grayscale(0%) opacity(1);
+}
+
+.btn-hov-active {
+  color: aqua;
+}
+
+.img-item:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.img-item:hover img {
+  opacity: 1;
+}
+
+.img-item:hover .mov-text {
+  color: white;
+}
+
+.img-item:hover .mov-text a {
+  width: 70%;
+  text-overflow: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #313131;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: blueviolet;
+}
+/*# sourceMappingURL=style.css.map */

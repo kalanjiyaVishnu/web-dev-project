@@ -87,3 +87,12 @@ function removeCLS()
     btn.classList.remove('btn-active');
     signIn.classList.remove('signIn-active');
 }
+
+
+// form
+const formBtn = document.getElementById('form-btn');
+const form = document.querySelector('.form-container');
+formBtn.addEventListener('click',()=>
+{
+    form.classList.toggle('form-active');
+})

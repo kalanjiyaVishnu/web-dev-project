@@ -1,0 +1,36 @@
+:root {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap");
+  font-size: 16px;
+}
+body {
+  font-family: "Poppins", sans-serif, "open-sans" !important;
+  background-color: #222;
+  color: white;
+  min-height: 100vh;
+  overflow: hidden;
+}
+// .margin-2{
+//   margin-left: 1rem;
+// }
+
+.container_def{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+ 
+
+}
+.foot_for_comp{
+  text-align: center;
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+ p{
+    width: 60%;
+ } 
+}
+
+@import "form";
+@import "login";

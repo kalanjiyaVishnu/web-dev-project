@@ -89,10 +89,29 @@ function removeCLS()
 }
 
 
-// form
-const formBtn = document.getElementById('form-btn');
-const form = document.querySelector('.form-container');
-formBtn.addEventListener('click',()=>
+
+// const formBtn = document.getElementById('form-btn');
+// const form = document.querySelector('.form-container');
+// formBtn.addEventListener('click',()=>
+// {
+//     form.classList.toggle('form-active');
+// })
+
+
+const imgcontainer = document.getElementById('carosalH');
+
+const slen = imgcontainer.querySelectorAll('img').length;
+var idx =0;
+carosalRun= ()=>{
+if(idx>slen-1)
 {
-    form.classList.toggle('form-active');
-})
+    idx =0;
+}
+imgcontainer.style.transform = `translateX(${-idx*100}%)`
+console.log(idx);
+idx++;
+
+}
+setInterval(() => {
+   carosalRun(); 
+}, 2000);

@@ -1,0 +1,29 @@
+
+.login {
+    height: 80vh;
+    margin: 0 auto;
+    width: 80%;
+    // align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .btn-custom{
+        background-color: transparent;
+        border: 1px solid darkgray;
+        border-radius: 4px;
+        font-size: 20px;
+    }
+  }
+
+  .login__normal {
+      .login__normal_text {
+          .text-top {
+              font-size: 2rem;
+              color: white;
+            }
+            p{
+
+            }
+        }
+  }

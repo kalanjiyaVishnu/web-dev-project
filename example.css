@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* box-sizing: border-box; */
+    background-color: #292929;
+    width: auto;
+    height: auto;
+}
+div{
+    width: 100%;
+    background-color: #ffffff;
+}
+.header
+{
+    background-color: aqua;
+    width: 100%;
+height: 10vh;
+}
+.section-container
+{
+    width: auto;
+    height: 70vh;
+}
+.section-1 , .section-2
+{
+    text-align: center;
+   justify-content: center;
+    color: #ffffff;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.section-1
+{
+    background-color: blue;
+}
+.section-2
+{
+    background-color: rgb(26, 26, 26);
+}
+.footer{
+    height: 10vh;
+}

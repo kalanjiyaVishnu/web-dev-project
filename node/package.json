@@ -1,0 +1,29 @@
+{
+  "name": "web-dev-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+    
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+ 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r1558/web-dev-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r1558/web-dev-project/issues"
+  },
+  "homepage": "https://github.com/r1558/web-dev-project#readme"
+}
